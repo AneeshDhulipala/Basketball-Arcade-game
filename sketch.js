@@ -1,5 +1,5 @@
 var backgroundImage=""
-var square=createSprite(20,30,20,10)
+var square
 function preload(){
 
 
@@ -10,9 +10,9 @@ function preload(){
 
 function setup(){
     createCanvas(400,600)
-    
+  square=createSprite(20,30,20,10)  
 }
 function draw(){
 //background(backgroundImage)
-
+drawSprites()
 }
