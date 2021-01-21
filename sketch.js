@@ -1,6 +1,9 @@
+var backgroundImage=""
+var square=createSprite(20,30,20,10)
 function preload(){
 
-    backgroundImage=loadImage("images/Basketballhoop.png")
+
+   // backgroundImage=loadImage("images/Basketball hoop.png")
     
 }
 
@@ -10,5 +13,6 @@ function setup(){
     
 }
 function draw(){
-background(backgroundImage)
+//background(backgroundImage)
+
 }
